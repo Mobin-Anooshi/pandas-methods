@@ -12,4 +12,3 @@ print(groups)
 print(groups.merge(right=cat,how='inner',on='category_id'))
 print(groups.merge(right=cat,how='outer',on='category_id'))
 print(groups.merge(right=city,how='outer',left_on='city_id',right_on='id'))
-یابک میرزا شاهی
